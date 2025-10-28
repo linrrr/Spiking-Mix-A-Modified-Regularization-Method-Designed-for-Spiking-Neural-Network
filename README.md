@@ -18,7 +18,7 @@
 ><br>[16] K.Efthymiadis,“fashion-mnist”. [Online] Available: https://github.com/kefth/fashion-mnist, 2019.
 ><br>[17] C. Lee, S. S. Sarwar, and K. Roy, “Enabling spike based backpropagation in state-of-the-art deep neural network architectures,” vol. abs/1903.06379. [Online] Available: https://doi.org/10.48550/arXiv.1903.06379.
 ><br>[18] V. Nair and G. E. Hinton, “Rectified linear units improve restricted boltzmann machines,” in ICML, vol. 27, pp. 807–814, 2010.
-><br>[19] A. F. M. S. Uddin, M. S. Monira, W. Shin, T. Chung, and S. Bae,“Saliencymix: A saliency guided data augmentation strategy for better regularization”, vol. abs/2006.01791. [Online]Available: https://doi.org/10.48550/ arXiv.2006.01791.
+><br>[19] A. F. M. S. Uddin, M. S. Monira, W. Shin, T. Chung, and S. Bae,“Saliencymix: A saliency guided data augmentation strategy for better regularization”, vol. abs/2006.01791. [Online]Available: https://doi.org/10.48550/arXiv.2006.01791.
 ><br>[20] X. Yu, Z. Yu, and S. Ramalingam, “Learning strict identity mappings in deep residual networks” in 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition. IEEE; CVF; IEEE Comp Soc, pp. 4432–4440, 31st IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Salt Lake City, UT, Jun 18-23,2018.
 ><br>[21] Jie Hu and Li Shen and Samuel Albanie and Gang Sun and Enhua Wu,“Squeeze-and-Excitation Networks”, vol. abs/1709.01507. [Online] Available: https://doi.org/10.48550/arXiv.1709.01507.
 ><br>[22] R.R. Selvaraju, A. Das, R. Vedantam, M. Cogswell, D. Parikh, and D.Batra, “Grad-cam: Why did you say that? visual explanations from deep networks via gradient-based localization”, [Online] Available:https://doi.org/10.48550/arXiv.1610.02391. 
