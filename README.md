@@ -1,13 +1,13 @@
 # Spiking-Mix-A-Modified-Regularization-Method-Designed-for-Spiking-Neural-Network
 The advent of data augmentation attracts a lot of  attention on how to handle unstructured data. Data  augmentation makes it easier to mine the essential data to  extract more useful information.
 
-[Article Link] 
-https://ieeexplore.ieee.org/document/10393072
+[Article Link]  <br>
+https://ieeexplore.ieee.org/document/10393072 <br>
 
 [Reference]
-[1] W. Maass, “Networks of spiking neurons: The third generation of neural network models,” Neural Networks, vol. 10, no. 9, pp. 1659–1671, 1998. 
-[2] J. Jeong, S. Park, M. Kim, H. Lee, D. Kim, and J. Shin, “Smoothmix: Training confidence-calibrated smoothed classifiers for certified robustness”, in Advances in Neural Information Processing Systems.M. Ranzato, A. Beygelzimer, Y. Dauphin, P. Liang, and J. Vaughan,Eds., 35th Conference on Neural Information Processing Systems(NeurIPS), Dec 06-14, 2021. 
-[3] J. Kim, W. Choo, and H. O. Song, “Puzzle mix: Exploiting saliencyand local statistics for optimal mixup,” in Proceedings of MachineLearning Research, H. Daume and A. Singh, Eds., vol. 119,International Conference on Machine Learning (ICML), Jul 13-18,2020.
+ <br>[1] W. Maass, “Networks of spiking neurons: The third generation of neural network models,” Neural Networks, vol. 10, no. 9, pp. 1659–1671, 1998. 
+ <br>[2] J. Jeong, S. Park, M. Kim, H. Lee, D. Kim, and J. Shin, “Smoothmix: Training confidence-calibrated smoothed classifiers for certified robustness”, in Advances in Neural Information Processing Systems.M. Ranzato, A. Beygelzimer, Y. Dauphin, P. Liang, and J. Vaughan,Eds., 35th Conference on Neural Information Processing Systems(NeurIPS), Dec 06-14, 2021. 
+ <br>[3] J. Kim, W. Choo, and H. O. Song, “Puzzle mix: Exploiting saliencyand local statistics for optimal mixup,” in Proceedings of MachineLearning Research, H. Daume and A. Singh, Eds., vol. 119,International Conference on Machine Learning (ICML), Jul 13-18,2020.
 [4] H. Zhang, M. Ciss´e, Y. N. Dauphin, and D. Lopez-Paz, “Mixup: Beyond empirical risk minimization,” vol. abs/1710.09412. [Online] Available: https://doi.org/10.48550/arXiv.1710.09412.
 [5] S. Yun, D. Han, S. J. Oh, S. Chun, J. Choe, and Y. Yoo, “Cutmix:Regularization strategy to train strong classifiers with localizablefeatures,” in IEEE International Conference on Computer Vision.IEEE; IEEE Comp Soc; CVF, pp. 6022–6031, IEEE/CVFInternational Conference on Computer Vision (ICCV), Seoul, SouthKorea, Oct 27-Nov 02, 2019. 
 [6] T. Devries and G. W. Taylor, “Improved regularization of convolutional neural networks with cutout,” vol. abs/1708.04552.[Online]. Available: https://arxiv.org/abs/1708.04552. 
