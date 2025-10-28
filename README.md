@@ -1,12 +1,11 @@
 # Spiking-Mix-A-Modified-Regularization-Method-Designed-for-Spiking-Neural-Network
 The advent of data augmentation attracts a lot of  attention on how to handle unstructured data. Data  augmentation makes it easier to mine the essential data to  extract more useful information.
 
+[Article Link] 
+https://ieeexplore.ieee.org/document/10393072
 
-Article Link: https://ieeexplore.ieee.org/document/10393072
-Reference
-[1] W. Maass, “Networks of spiking neurons: The third generation of
-neural network models,” Neural Networks, vol. 10, no. 9, pp. 1659–
-1671, 1998. 
+[Reference]
+[1] W. Maass, “Networks of spiking neurons: The third generation of neural network models,” Neural Networks, vol. 10, no. 9, pp. 1659–1671, 1998. 
 [2] J. Jeong, S. Park, M. Kim, H. Lee, D. Kim, and J. Shin, “Smoothmix: 
 Training confidence-calibrated smoothed classifiers for certified 
 robustness”, in Advances in Neural Information Processing Systems.
