@@ -1,9 +1,7 @@
 # Spiking-Mix-A-Modified-Regularization-Method-Designed-for-Spiking-Neural-Network
-The advent of data augmentation attracts a lot of  attention on how to handle unstructured data. Data  augmentation makes it easier to mine the essential data to  extract more useful information.
-
- <br>https://ieeexplore.ieee.org/document/10393072
-
- <br>[1] W. Maass, “Networks of spiking neurons: The third generation of neural network models,” Neural Networks, vol. 10, no. 9, pp. 1659–1671, 1998. 
+<br>https://ieeexplore.ieee.org/document/10393072
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<br>[1] W. Maass, “Networks of spiking neurons: The third generation of neural network models,” Neural Networks, vol. 10, no. 9, pp. 1659–1671, 1998. 
  <br>[2] J. Jeong, S. Park, M. Kim, H. Lee, D. Kim, and J. Shin, “Smoothmix: Training confidence-calibrated smoothed classifiers for certified robustness”, in Advances in Neural Information Processing Systems.M. Ranzato, A. Beygelzimer, Y. Dauphin, P. Liang, and J. Vaughan,Eds., 35th Conference on Neural Information Processing Systems(NeurIPS), Dec 06-14, 2021. 
  <br>[3] J. Kim, W. Choo, and H. O. Song, “Puzzle mix: Exploiting saliencyand local statistics for optimal mixup,” in Proceedings of MachineLearning Research, H. Daume and A. Singh, Eds., vol. 119,International Conference on Machine Learning (ICML), Jul 13-18,2020.
  <br>[4] H. Zhang, M. Ciss´e, Y. N. Dauphin, and D. Lopez-Paz, “Mixup: Beyond empirical risk minimization,” vol. abs/1710.09412. [Online] Available: https://doi.org/10.48550/arXiv.1710.09412.
@@ -28,6 +26,6 @@ The advent of data augmentation attracts a lot of  attention on how to handle un
  <br>[23] B. Zhou, A. Khosla, L. A., A. Oliva, and A. Torralba. Learning Deep Features for Discriminative Localization, in 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 2921–2929.
  <br>[24] H. Li, Z. Xu, G. Taylor, and T. Goldstein, “Visualizing the loss landscape of neural nets”, [Online] Available: https://doi.org/10.48550/arXiv.1712.09913. 
  <br>[25] Z. Yao, A. Gholami, K. Keutzer, and M. W. Mahoney, “Pyhessian:Neural networks through the lens of the hessian”, in 2020 IEEE International Conference on Big Data (Big Data), pp. 581–59.
- 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <br>[1] Deng J , Dong W , Socher R ,et al.ImageNet: a Large-Scale Hierarchical Image Database[C]//2009 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR 2009), 20-25 June 2009, Miami, Florida, USA.IEEE, 2009.DOI:10.1109/CVPR.2009.5206848.
 <br>[2] Fang W, Chen Y, Ding J, et al. Spikingjelly: An open-source machine learning infrastructure platform for spike-based intelligence[J]. Science Advances, 2023, 9(40): eadi1480.
