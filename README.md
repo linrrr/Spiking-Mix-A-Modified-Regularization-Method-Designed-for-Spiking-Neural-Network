@@ -1,1 +1,1 @@
-# Spiking-Mix-A-Modified-Regularization-Method-Designed-for-Spiking-Neural-Network
+# Spiking-Mix: A Modified Regularization Method Designed for Spiking Neural Network
