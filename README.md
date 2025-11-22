@@ -26,6 +26,3 @@
 ><br>[24] H. Li, Z. Xu, G. Taylor, and T. Goldstein, “Visualizing the loss landscape of neural nets”, [Online] Available: https://doi.org/10.48550/arXiv.1712.09913. 
 ><br>[25] Z. Yao, A. Gholami, K. Keutzer, and M. W. Mahoney, “Pyhessian:Neural networks through the lens of the hessian”, in 2020 IEEE International Conference on Big Data (Big Data), pp. 581–59.
 ***
-><br>[1] Deng J , Dong W , Socher R ,et al.ImageNet: a Large-Scale Hierarchical Image Database[C]//2009 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR 2009), 20-25 June 2009, Miami, Florida, USA.IEEE, 2009.DOI:10.1109/CVPR.2009.5206848. 
-><br>[2] Fang W, Chen Y, Ding J, et al. Spikingjelly: An open-source machine learning infrastructure platform for spike-based intelligence[J]. Science Advances, 2023, 9(40): eadi1480.
-><br>[3] LeCun, Y., Cortes, C. & Burges, C. J. C. The MNIST database of handwritten digits. http://yann.lecun.com/exdb/mnist
