@@ -8,7 +8,7 @@ class LIFNode(nn.Module):
         super(LIFNode, self).__init__()
         self.v = 0.
         self.v_th = 0.5
-        self.tau = 1.75
+        self.tau = 2.0
 
     def forward(self, x):
         if isinstance(self.v, float):
