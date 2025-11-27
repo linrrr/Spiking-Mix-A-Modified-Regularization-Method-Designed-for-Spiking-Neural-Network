@@ -14,7 +14,7 @@ class LIFNode(nn.Module):
         if isinstance(self.v, float):
             self.v = torch.zeros_like(x).to(x.device)
 
-        v = self.v + x / self.tau - self.v / (self.tau + 0.25)
+        v = self.v + (x - self.v) / self.tau
         oup_v = torch.clamp(v - self.v_th, 0., 1.)
         out = self.v_th * (oup_v > self.v_th).float() + 0.5 * self.v_th * (oup_v > 0.).float()  
         self.v = ((v - self.v_th) < 0.).float() * v
