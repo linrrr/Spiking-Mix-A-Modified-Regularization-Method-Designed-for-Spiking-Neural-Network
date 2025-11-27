@@ -1,7 +1,5 @@
 # Spiking-Mix: A Modified Regularization Method Designed for Spiking Neural Network
-
-####This repo holds the codes for Spiking-Mix.
-
+#### This repo holds the codes for Spiking-Mix.
 #### Neuron
 [NeuBridge: bridging quantized activations and spiking neurons for ANN-SNN conversion](https://github.com/Intelli-Chip-Lab/NeuBridge)
 We referenced the model in this paper and activated neurons by quantifying the input values. 
