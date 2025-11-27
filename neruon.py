@@ -3,9 +3,9 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-class LIFNeuron(nn.Module):
+class LIFNode(nn.Module):
     def __init__(self):
-        super(LIFNeuron, self).__init__()
+        super(LIFNode, self).__init__()
         self.v = 0.
         self.v_th = 0.5
         self.tau = 1.75
