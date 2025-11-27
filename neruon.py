@@ -12,7 +12,7 @@ class LIFNode(nn.Module):
 
     def forward(self, x):
         if isinstance(self.v, float):
-            self.v = torch.zeros_like(x).detach().to(x.device)
+            self.v = torch.zeros_like(x).to(x.device)
 
         v = self.v + x / self.tau - self.v / (self.tau + 0.25)
         oup_v = torch.clamp(v - self.v_th, 0., 1.)
