@@ -8,5 +8,5 @@
 <br>This model still uses the LIF model to accumulate the membrane voltage.
 <br>This method can reduce the time-step required for conversion.
 #### Architectures
-For network architectures, we support ResNet and Wide-Resnet. 
+For network architectures, we support ResNet and Wide-ResNet. 
 # Spiking-Mix
