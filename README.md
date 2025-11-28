@@ -5,7 +5,7 @@
 [NeuBridge: bridging quantized activations and spiking neurons for ANN-SNN conversion](https://github.com/Intelli-Chip-Lab/NeuBridge)
 <br>We use the model in this paper and **quantify values of activated neurons**. 
 <br>This model still uses the **LIF model** to accumulate the membrane voltage.
-<br>This method can more effectively **reduce the time-step required for accumulating**.
+<br>This can more effectively **reduce the time-step required for accumulating**.
 #### Architectures
 For network architectures, we support **ResNet and Wide-ResNet**. 
 
