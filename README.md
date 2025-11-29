@@ -13,4 +13,9 @@ For network architectures, we support **ResNet and Wide-ResNet**.
 The code for neuron models is based on the [spikingjelly](https://github.com/fangwei123456/spikingjelly) repo. 
 <br>The code for some utils is from the [pytorch-classification](https://github.com/bearpaw/pytorch-classification) repo.
 
+## Center Point Distance Distribution
+$$
+(\frac{\sqrt(x^2 - y^2)}{\sqrt(H^2 + W^2)} )\left * 100% \right
+$$
+
 # Spiking-Mix
