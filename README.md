@@ -17,10 +17,8 @@ The code for neuron models is based on the [spikingjelly](https://github.com/fan
 $$
 \begin{align}
     \sqrt{\frac{(x^2 + y^2)}{(H^2 + W^2)}} & = \sqrt{\frac{73^2-1}{12^2}} \\
-              & = \sqrt{\frac{73^2}{12^2}\cdot\frac{73^2-1}{73^2}} \\ 
-              & = \sqrt{\frac{73^2}{12^2}}\sqrt{\frac{73^2-1}{73^2}} \\
-              & = \frac{73}{12}\sqrt{1-\frac{1}{73^2}} \\ 
-              & \approx \frac{73}{12}\left(1-\frac{1}{2\cdot73^2}\right) \\
+              & = \sqrt{\frac{(x_2 - x_1)^2 - (y_2 - y_1)^2}{(H^2 + W^2)}} \\ 
+              & = \sqrt{\frac{((\gamma * x_2 + \delta) - x_1)^2 - ((\gamma * y_2 + \delta) - y_1)^2)}{(H^2 + W^2)}} \\ 
 \end{align}
 $$
 
