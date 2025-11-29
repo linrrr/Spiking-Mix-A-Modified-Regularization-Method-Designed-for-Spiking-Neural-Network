@@ -19,7 +19,7 @@ $$
 \begin{align}
     \sqrt{\frac{(x^2 + y^2)}{(H^2 + W^2)}} & = \sqrt{\frac{(x_2 - x_1)^2 - (y_2 - y_1)^2}{(H^2 + W^2)}} \\ 
               & = \sqrt{\frac{((\gamma * x_2 + \delta) - x_1)^2 - ((\gamma * y_2 + \delta) - y_1)^2)}{(H^2 + W^2)}} \\ 
-    & = \frac{1 - \theta * lam^2 + \theta * region}{\epsilon + \theta * (1 - lam)^2 + \theta * e^(-region^2)}
+  
 
 \end{align}
 $$
