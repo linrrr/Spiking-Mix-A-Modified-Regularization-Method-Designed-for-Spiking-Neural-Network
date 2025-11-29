@@ -23,7 +23,7 @@ $$
 $$
 $$
 \begin{align}
-    \gamma = \epsilon + \frac{{(1 - \theta * lam ^ 2 + \theta * region)}{(\epsilon + \theta * (1 - lam) ^ 2 + \theta * e ^ (-region ^ 2))}}
+    \gamma &= \frac{{(1 - \theta * lam ^ 2 + \theta * region)}{(\epsilon + \theta * (1 - lam) ^ 2 + \theta * e ^ (-region ^ 2))}}
 \end{align}
 $$
 
