@@ -15,7 +15,7 @@ The code for neuron models is based on the [spikingjelly](https://github.com/fan
 
 ## Center Point Distance Distribution
 $$
-(\frac{\sqrt(x^2 - y^2)}{\sqrt(H^2 + W^2)} )\left * 100% \right
+(\frac{\sqrt(x^2 - y^2)}{\sqrt(H^2 + W^2)} ) * 100%
 $$
 
 # Spiking-Mix
