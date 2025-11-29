@@ -22,10 +22,5 @@ $$
 \begin{align}
 $$
 
-$$
-\begin{align}
-\gamma = \epsilon + (1 - \theta * lam^2 + \theta * region) / (\epsilon + \theta * (1 - lam)^2 + \theta * e^(-region^2))
-\begin{align}
-$$
 
 # Spiking-Mix
