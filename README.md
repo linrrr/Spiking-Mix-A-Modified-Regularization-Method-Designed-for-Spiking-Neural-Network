@@ -9,10 +9,6 @@
 #### Architectures
 For network architectures, we support **ResNet and Wide-ResNet**. 
 
-## Credits
-The code for neuron models is based on the [spikingjelly](https://github.com/fangwei123456/spikingjelly) repo. 
-<br>The code for some utils is from the [pytorch-classification](https://github.com/bearpaw/pytorch-classification) repo.
-
 ## Center Point Distance Distribution
 $$
 \begin{align}
@@ -21,5 +17,9 @@ $$
     \gamma    & = \epsilon + \frac{1 - \theta * lam^2 + \theta * region}{\epsilon + \theta * (1 - lam)^2 + \theta * e^(-region^2)}\\
 \end{align}
 $$
+
+## Credits
+The code for neuron models is based on the [spikingjelly](https://github.com/fangwei123456/spikingjelly) repo. 
+<br>The code for some utils is from the [pytorch-classification](https://github.com/bearpaw/pytorch-classification) repo.
 
 # Spiking-Mix
