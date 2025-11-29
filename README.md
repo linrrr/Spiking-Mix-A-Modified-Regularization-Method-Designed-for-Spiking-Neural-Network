@@ -21,10 +21,6 @@ $$
               & = \sqrt{\frac{((\gamma * x_2 + \delta) - x_1)^2 - ((\gamma * y_2 + \delta) - y_1)^2)}{(H^2 + W^2)}} \\ 
 \end{align}
 $$
-$$
-\begin{align}
-    \gamma &= \frac{{(1 - \theta * lam ^ 2 + \theta * region)}{(\epsilon + \theta * (1 - lam) ^ 2 + \theta * e ^ (-region ^ 2))}}
-\end{align}
-$$
+$\gamma &= \frac{{(1 - \theta * lam ^ 2 + \theta * region)}{(\epsilon + \theta * (1 - lam) ^ 2 + \theta * e ^ (-region ^ 2))}}
 
 # Spiking-Mix
