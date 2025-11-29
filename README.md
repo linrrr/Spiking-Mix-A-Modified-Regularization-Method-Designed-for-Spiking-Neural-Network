@@ -16,7 +16,7 @@ The code for neuron models is based on the [spikingjelly](https://github.com/fan
 ## Center Point Distance Distribution
 $$
 \begin{align}
-    \sqrt{37} & = \sqrt{\frac{73^2-1}{12^2}} \\
+    \sqrt{\frac{(x^2 + y^2)}{(H^2 + W^2)}} & = \sqrt{\frac{73^2-1}{12^2}} \\
               & = \sqrt{\frac{73^2}{12^2}\cdot\frac{73^2-1}{73^2}} \\ 
               & = \sqrt{\frac{73^2}{12^2}}\sqrt{\frac{73^2-1}{73^2}} \\
               & = \frac{73}{12}\sqrt{1-\frac{1}{73^2}} \\ 
