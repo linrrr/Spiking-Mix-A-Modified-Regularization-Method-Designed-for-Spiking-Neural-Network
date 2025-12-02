@@ -8,7 +8,6 @@
 <br>This can more effectively **reduce the time-step required for accumulating**.
 
 #### Architectures
-For network architectures, we support **ResNet and Wide-ResNet**. 
 <br>[SpikingResformer: Bridging ResNet and Vision Transformer in Spiking Neural Networks](https://github.com/xyshi2000/SpikingResformer)
 <br>We use SpikingResformer in this paper, which combines **the ResNet-based architecture and the spiking self-attention mechanism**.
 
