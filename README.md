@@ -3,7 +3,7 @@
 
 #### LIFNode
 [NeuBridge: bridging quantized activations and spiking neurons for ANN-SNN conversion](https://github.com/Intelli-Chip-Lab/NeuBridge)
-<br>We use the model in this paper and **quantify values of activated neurons**. 
+We use the model in this paper and **quantify values of activated neurons**. 
 <br>This model still uses the **LIF model** to accumulate the membrane voltage.
 <br>This can more effectively **reduce the time-step required for accumulating**.
 
