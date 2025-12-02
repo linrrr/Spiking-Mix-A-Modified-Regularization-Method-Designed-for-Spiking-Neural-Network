@@ -9,10 +9,8 @@
 
 #### Architectures
 For network architectures, we support **ResNet and Wide-ResNet**. 
-
-#### Modules
-Shi, Xinyu,Hao, Zecheng,Yu, Zhaofei.SpikingResformer: Bridging ResNet and Vision Transformer in Spiking Neural Networks[C].//IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).2024:5610-5619.
-<br>Sergey Ioffe and Christian Szegedy. Batch normalization: Accelerating deep network training by reducing internal covariate shift. In International Conference on Machine Learning, pp. 448–456, 2015.
+<br>Shi, Xinyu,Hao, Zecheng,Yu, Zhaofei.SpikingResformer: Bridging ResNet and Vision Transformer in Spiking Neural Networks[C].//IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).2024:5610-5619.
+<br>We use SpikingResformer in this paper, which combines **the ResNet-based architecture and the spiking self-attention mechanism**.
 
 ## Center Point Distance Distribution
 $$
@@ -26,5 +24,6 @@ $$
 ## Credits
 The code for neuron models is based on the [spikingjelly](https://github.com/fangwei123456/spikingjelly) repo. 
 <br>The code for some utils is from the [pytorch-classification](https://github.com/bearpaw/pytorch-classification) repo.
+<br>Sergey Ioffe and Christian Szegedy. Batch normalization: Accelerating deep network training by reducing internal covariate shift. In International Conference on Machine Learning, pp. 448–456, 2015.
 
 # Spiking-Mix
