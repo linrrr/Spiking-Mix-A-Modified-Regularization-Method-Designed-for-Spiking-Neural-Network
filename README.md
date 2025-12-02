@@ -9,7 +9,7 @@
 
 #### Architectures
 For network architectures, we support **ResNet and Wide-ResNet**. 
-<br>Shi, Xinyu,Hao, Zecheng,Yu, Zhaofei.SpikingResformer: Bridging ResNet and Vision Transformer in Spiking Neural Networks[C].//IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).2024:5610-5619.
+<br>[SpikingResformer: Bridging ResNet and Vision Transformer in Spiking Neural Networks](https://github.com/xyshi2000/SpikingResformer)
 <br>We use SpikingResformer in this paper, which combines **the ResNet-based architecture and the spiking self-attention mechanism**.
 
 ## Center Point Distance Distribution
