@@ -11,8 +11,8 @@
 For network architectures, we support **ResNet and Wide-ResNet**. 
 
 #### Block Structure
-<br>Shi, Xinyu,Hao, Zecheng,Yu, Zhaofei.SpikingResformer: Bridging ResNet and Vision Transformer in Spiking Neural Networks[C].//IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).2024:5610-5619.
-<br>Sergey Ioffe and Christian Szegedy. Batch normalization: Accelerating deep network training by reducing internal covariate shift. In International Conference on Machine Learning, pp. 448–456, 2015.
+<br>[1]Shi, Xinyu,Hao, Zecheng,Yu, Zhaofei.SpikingResformer: Bridging ResNet and Vision Transformer in Spiking Neural Networks[C].//IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).2024:5610-5619.
+<br>[2]Sergey Ioffe and Christian Szegedy. Batch normalization: Accelerating deep network training by reducing internal covariate shift. In International Conference on Machine Learning, pp. 448–456, 2015.
 
 ## Center Point Distance Distribution
 $$
