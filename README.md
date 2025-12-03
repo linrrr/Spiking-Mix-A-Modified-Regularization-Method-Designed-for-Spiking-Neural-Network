@@ -9,7 +9,6 @@
 
 #### Architectures
 [SpikingResformer: Bridging ResNet and Vision Transformer in Spiking Neural Networks](https://github.com/xyshi2000/SpikingResformer)
-<br>We use SpikingResformer in this paper.
 
 ## Center Point Distance Distribution
 $$
