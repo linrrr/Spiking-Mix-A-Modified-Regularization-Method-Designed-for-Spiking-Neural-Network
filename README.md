@@ -23,6 +23,5 @@ $$
 ## Credits
 The code for modules is based on the [spikingjelly](https://github.com/fangwei123456/spikingjelly) repo. 
 <br>The code for some utils is from the [pytorch-classification](https://github.com/bearpaw/pytorch-classification) repo.
-<br>Sergey Ioffe and Christian Szegedy. **Batch normalization: Accelerating deep network training by reducing internal covariate shift**. In International Conference on Machine Learning, pp. 448–456, 2015.
 
 # Spiking-Mix
