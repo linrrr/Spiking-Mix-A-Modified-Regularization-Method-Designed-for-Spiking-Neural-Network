@@ -12,13 +12,26 @@ class LIFNode(nn.Module):
 
     def forward(self, x):
         if isinstance(self.v, float):
-            self.v = torch.zeros_like(x).to(x.device)
+            self.v = torch.zeros_like(x).detach().to(x.device)
 
-        v = self.v + (x - self.v) / self.tau
-        oup = torch.clamp(v - self.v_th, 0., 1.)
-        out = self.v_th * (v > self.v_th).float() + 0.5 * self.v_th * (v > 0.).float()  
-        self.v = ((v - self.v_th) < 0.).float() * v
-        return (out - oup).detach_() + oup
+        output_v = self.v_mul(x, self.v.data)
+        oup_v = torch.clamp(output_v - self.v_th, 0., 1.)
+        out = self.encoder(output_v, self.v_th) + self.encoder(output_v, 0.5 * self.v_th)
+        out = self.decoder(out)
+        self.v = (1 - ((output_v - self.v_th) > 0.).float()) * output_v
+
+        return (out - oup_v).detach_() + oup_v
+
+    def v_mul(self, x, v_t):
+        v = v_t + (x - v_t) / self.tau
+        return v
+
+    def encoder(self, v, v_th):
+        return (v > v_th).float()
+
+    def decoder(self, x):
+        x = (x > self.v_th).float() * self.v_th + (x > 0.5 * self.v_th).float() * (self.v_th ** 2)
+        return x
 
     def reset(self):
         self.v = 0.
