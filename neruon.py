@@ -7,7 +7,7 @@ class LIFNode(nn.Module):
     def __init__(self):
         super(LIFNode, self).__init__()
         self.v = 0.
-        self.v_th = 1.0
+        self.v_th = 0.5
         self.tau = 2.0
 
     def forward(self, x):
@@ -16,7 +16,7 @@ class LIFNode(nn.Module):
 
         output_v = self.v_mul(x, self.v.data)
         oup_v = torch.clamp(output_v - self.v_th, 0., 1.)
-        out = self.encoder(output_v, self.v_th) + self.encoder(output_v, 0.5 * self.v_th)
+        out = self.encoder(output_v, self.v_th) + self.encoder(output_v, self.v_th / self.tau)
         out = self.decoder(out)
         self.v = (1 - ((output_v - self.v_th) > 0.).float()) * output_v
 
@@ -30,7 +30,7 @@ class LIFNode(nn.Module):
         return (v > v_th).float()
 
     def decoder(self, x):
-        x = (x > self.v_th).float() * self.v_th + (x > 0.5 * self.v_th).float() * (self.v_th ** 2)
+        x = (x > self.v_th).float() * self.v_th + (x > self.v_th / self.tau).float() * (self.v_th ** 2)
         return x
 
     def reset(self):
