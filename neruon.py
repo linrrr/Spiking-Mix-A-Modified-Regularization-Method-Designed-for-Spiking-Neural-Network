@@ -16,7 +16,7 @@ class LIFNode(nn.Module):
 
         output_v = self.v_mul(x, self.v.data)
         oup_v = torch.clamp(output_v - self.v_th, 0., 1.)
-        out = self.enc(output_v, self.v_th) + self.encoder(output_v, self.v_th / self.tau)
+        out = self.enc(output_v, self.v_th) + self.enc(output_v, self.v_th / self.tau)
         out = self.dec(out)
         self.v = (1 - ((output_v - self.v_th) > 0.).float()) * output_v
 
