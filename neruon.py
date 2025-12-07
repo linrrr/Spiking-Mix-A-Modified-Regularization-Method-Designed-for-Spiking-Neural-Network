@@ -30,7 +30,7 @@ class LIFNode(nn.Module):
         return (v > v_th).float()
 
     def dec(self, v):
-        v = (v > self.v_th).float() * self.v_th + (v > self.v_th / self.tau).float() * (self.v_th ** 2)
+        v = (v > self.v_th * self.tau).float() * self.v_th + (v > self.v_th).float() * (self.v_th ** 2)
         return v
 
     def reset(self):
