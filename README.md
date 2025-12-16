@@ -4,10 +4,10 @@
 #### LIFNode
 [NeuBridge: bridging quantized activations and spiking neurons for ANN-SNN conversion](https://github.com/Intelli-Chip-Lab/NeuBridge)
 <br>We use the model in this paper and **quantify values of activated neurons**. 
-<br>**量化编码（阈限前）－ 速率编码 + 时延编码（阈限期）－ 时间编码（阈限后）**
+<br>**Quantization coding (Before the Threshold) - Rate coding + Delay coding (During the Threshol) - Time coding (After the Threshold)**
 
-<br>Z世代大学生的北京老字号品牌认知现状与强化策略 —— 以“百年义利”为例
-<br>**限量编码（阈限前）－ 开盒仪式（阈限期）－ UGC二次创作（阈限后）**
+<br>The Current Status and Strengthening Strategies of Brand Awareness of Time-Honored Brands in Beijing among Generation Z College Students – A Case Study of "Bai Nian Yi Li"
+<br>**Limited Edition Coding (Before the Threshold) - Unboxing Ceremony (During the Threshold) - User-Generated Content (After the Threshold)**
 
 <br>This model still uses the **LIF model** to accumulate the membrane voltage.
 <br>This can more effectively **reduce the time-step required for accumulating**.
