@@ -7,7 +7,7 @@
 <br>This model still uses the **LIF model** to accumulate the membrane voltage.
 <br>This can more effectively **reduce the time-step required for accumulating**.
 
-<br>杨潇,蒋恺昱,林刚.Z世代大学生的北京老字号品牌认知现状与强化策略——以“百年义利”为例[J].科技传播,2025,17,(18):94-99.DOI:10.3969/j.issn.1674-6708.2025.18.021.
+<br>杨潇,蒋恺昱,林刚.Z世代大学生的北京老字号品牌认知现状与强化策略——以“百年义利”为例
 <br>构建“新中秋仪式三阶模型”：**限量编码（阈限前）－开盒仪式（阈限期）－ UGC二次创作（阈限后）**
 
 #### Architectures
