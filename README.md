@@ -8,7 +8,7 @@
 <br>This can more effectively **reduce the time-step required for accumulating**.
 
 <br>Z世代大学生的北京老字号品牌认知现状与强化策略——以“百年义利”为例
-<br>构建“新中秋仪式三阶模型”：**限量编码（阈限前）－开盒仪式（阈限期）－ UGC二次创作（阈限后）**
+<br>构建“新中秋仪式三阶模型”：**限量编码（阈限前）－ 开盒仪式（阈限期）－ UGC二次创作（阈限后）**
 
 #### Architectures
 [SpikingResformer: Bridging ResNet and Vision Transformer in Spiking Neural Networks](https://github.com/xyshi2000/SpikingResformer)
