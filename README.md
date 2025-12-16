@@ -6,7 +6,7 @@
 <br>We use the model in this paper and **quantify values of activated neurons**. 
 <br>**Quantization coding (Before the Threshold) - Rate coding (During the Threshold) + Delay coding - Time coding (After the Threshold)**
 
-[The Current Status and Strengthening Strategies of Brand Awareness of Time-Honored Brands in Beijing among Generation Z College Students – A Case Study of "Bai Nian Yi Li"]
+[The Current Status and Strengthening Strategies of Brand Awareness of Time-Honored Brands in Beijing among Generation Z College Students – A Case Study of "Bai Nian Yi Li"](https://kns.cnki.net/kcms2/article/abstract?v=lqoStndJ5wEZJXIvSanNuchEmKiBTz2xCu1Lqc4moQTERBpwXu_7LgIB72NUz4NK9-P6HX4rUf8zKPLwENSZVmU_YAsvQo3rNq-PVSGQipn-Bt_vDHuQC5SqyucKQ8_ds-_wAaN3M_HWOI_bQUhyJrMxjQ-Ue80hJhD33A8rqnI=&uniplatform=NZKPT&language=CHS)
 <br>**Limited Edition Coding (Before the Threshold) - Unboxing Ceremony (During the Threshold) - User-Generated Content (After the Threshold)**
 
 <br>This model still uses the **LIF model** to accumulate the membrane voltage.
