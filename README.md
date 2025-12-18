@@ -5,7 +5,7 @@
 [NeuBridge: bridging quantized activations and spiking neurons for ANN-SNN conversion](https://github.com/Intelli-Chip-Lab/NeuBridge)
 <br>We use the model in this paper and **quantify values of activated neurons**. 
 <br>**Quantization Coding (Before the Threshold) - Rate Coding + Delay Coding (During the Threshold) - Time Coding (After the Threshold)**
-[Quantization Coding](https://universal-lin.notion.site/Quantization-Coding-2cd196b34f21800093bafe1e56e68712)
+<br>[Schematic Diagram](https://universal-lin.notion.site/Quantization-Coding-2cd196b34f21800093bafe1e56e68712)
 <br><br>The Current Status and Strengthening Strategies of Brand Awareness of Time-Honored Brands in Beijing among Generation Z College Students
 <br>**Limited Edition Coding (Before the Threshold) - Unboxing Ceremony (During the Threshold) - User-Generated Content (After the Threshold)**
 <br><br>This model still uses the **LIF model** to accumulate the membrane voltage.
