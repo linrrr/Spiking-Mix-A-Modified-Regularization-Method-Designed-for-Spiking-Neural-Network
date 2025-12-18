@@ -7,6 +7,8 @@
 <br>**Quantization Coding (Before the Threshold) - Rate Coding + Delay Coding (During the Threshold) - Time Coding (After the Threshold)**
 <br><br>The Current Status and Strengthening Strategies of Brand Awareness of Time-Honored Brands in Beijing among Generation Z College Students
 <br>**Limited Edition Coding (Before the Threshold) - Unboxing Ceremony (During the Threshold) - User-Generated Content (After the Threshold)**
+<br><br>[A three-segment high-precision time-to-digital conversion method and its circuit based on a dual-ring DLL](https://d.wanfangdata.com.cn/patent/CN201410510842.1)
+**Delay Coding**
 <br><br>This model still uses the **LIF model** to accumulate the membrane voltage.
 <br>This can more effectively **reduce the time-step required for accumulating**.
 
