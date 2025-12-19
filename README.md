@@ -6,6 +6,7 @@
 <br>We use the model in this paper and **quantify values of activated neurons**. 
 <br>**Quantization Coding (Before the Threshold) - Rate Coding + Delay Coding (During the Threshold) - Time Coding (After the Threshold)**
 <br>[Encoding](https://universal-lin.notion.site/Quantization-Coding-2cd196b34f21800093bafe1e56e68712)
+<br><br>[The design of multi-input LIF neuron circuit based on novel memristor](https://mc.spacejournal.cn/article/doi/10.19304/J.ISSN1000-7180.2023.0891)
 <br><br>The Current Status and Strengthening Strategies of Brand Awareness of Time-Honored Brands in Beijing among Generation Z College Students
 <br>**Limited Edition Coding (Before the Threshold) - Unboxing Ceremony (During the Threshold) - User-Generated Content (After the Threshold)**
 <br><br>This model still uses the **LIF model** to accumulate the membrane voltage.
