@@ -4,7 +4,7 @@
 #### LIFNode
 [NeuBridge: bridging quantized activations and spiking neurons for ANN-SNN conversion](https://github.com/Intelli-Chip-Lab/NeuBridge)
 <br>We use the model in this paper and **quantify values of activated neurons**. 
-<br>**Quantization Coding (Before the Threshold) - Rate Coding + Delay Coding (During the Threshold) - Time Coding (After the Threshold)**
+<br>**Quantization Coding(Before the Threshold) - Rate Coding + Delay Coding(During the Threshold) - Time Coding(After the Threshold)**
 <br><br>[The design of multi-input LIF neuron circuit based on novel memristor](https://mc.spacejournal.cn/article/doi/10.19304/J.ISSN1000-7180.2023.0891)
 <br>**Multi-threshold characteristics**
 <br><br>[Encoding](https://universal-lin.notion.site/Quantization-Coding-2cd196b34f21800093bafe1e56e68712)
