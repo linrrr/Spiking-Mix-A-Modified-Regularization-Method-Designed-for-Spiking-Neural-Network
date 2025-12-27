@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-# v_th, tau, redefine_threshold: These required values need to be calculated.
+# v_th, tau, redefine_threshold: These required values need to be recalculated.
 class LIFNeuron(nn.Module):
     def __init__(self, v_th, tau, redefine_threshold):
         super(LIFNeuron, self).__init__()
@@ -37,7 +37,7 @@ class SharedNeuron(nn.Module):
         self.neuron2 = LIFNeuron(v_th, tau, redefine_threshold)
 
     def forward(self, x):
-        return self.neuron1(x) + self.neuron2(x)
+        return self.redefine_threshold * (self.neuron1(x) + self.neuron2(x))
 
     def reset(self):
         self.neuron1.reset()
