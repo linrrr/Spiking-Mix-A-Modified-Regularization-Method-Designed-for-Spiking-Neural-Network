@@ -15,7 +15,7 @@
 [SpikingResformer: Bridging ResNet and Vision Transformer in Spiking Neural Networks](https://github.com/xyshi2000/SpikingResformer)
 
 ## Credits
-The code for modules is based on the [spikingjelly](https://github.com/fangwei123456/spikingjelly) repo. 
+The code for modules is based on the [spikingjelly](https://github.com/fangwei123456/spikingjelly)  and [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist) repo. 
 <br>The code for some utils is from the [pytorch-classification](https://github.com/bearpaw/pytorch-classification) repo.
 
 # Spiking-Mix
