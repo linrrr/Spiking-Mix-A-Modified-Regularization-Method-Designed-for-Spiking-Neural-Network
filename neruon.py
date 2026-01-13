@@ -17,18 +17,16 @@ class LIFNeuron(nn.Module):
             self.v = torch.zeros_like(x).to(x.device)
 
         output_v = self.v + (x - self.v) / self.tau
-        gard_v = torch.clamp(output_v - self.v_th, 0., 1.)
-        out = (output_v > self.v_th).float() * self.redefine_weight(output_v - self.v_th)
+        grad_v = torch.clamp(output_v - self.v_th, 0., 1.)
+        out = (output_v > self.v_th).float() * self.redefine_weight(F.max_pool2d(output_v - self.v_th, (1, 1)))
         self.v = (1 - ((output_v - self.v_th) > 0.).float()) * output_v
 
-        return (out - gard_v).detach_() + gard_v
+        return (out - grad_v).detach_() + grad_v
 
     def redefine_weight(self, x):
         weight_value = torch.sigmoid(torch.relu(x))
         return (weight_value > self.v_th).float() * self.redefine_threshold
 
-    def reset(self):
-        self.v = 0.
 
 class SharedNeuron(nn.Module):
     def __init__(self):
@@ -40,5 +38,5 @@ class SharedNeuron(nn.Module):
         return self.redefine_threshold * (self.neuron1(x) + self.neuron2(x))
 
     def reset(self):
-        self.neuron1.reset()
-        self.neuron2.reset()
+        self.neuron1.v = 0.
+        self.neuron2.v = 0.
