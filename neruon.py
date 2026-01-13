@@ -31,8 +31,8 @@ class LIFNeuron(nn.Module):
 class SharedNeuron(nn.Module):
     def __init__(self):
         super(SharedNeuron, self).__init__()
-        self.neuron1 = LIFNeuron(v_th, tau, redefine_threshold)
-        self.neuron2 = LIFNeuron(v_th, tau, redefine_threshold)
+        self.neuron1 = LIFNeuron(v_th_1, tau, redefine_threshold_1)
+        self.neuron2 = LIFNeuron(v_th_2, tau, redefine_threshold_2)
 
     def forward(self, x):
         return self.redefine_threshold * (self.neuron1(x) + self.neuron2(x))
