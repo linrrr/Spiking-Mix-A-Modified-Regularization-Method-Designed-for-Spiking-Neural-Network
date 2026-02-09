@@ -15,6 +15,7 @@
 [SpikingResformer: Bridging ResNet and Vision Transformer in Spiking Neural Networks](https://github.com/xyshi2000/SpikingResformer)
 <br>张新岩，祝勇俊, 吴宏杰, 等. 基于并行Transformer和CNN的图像压缩感知重构网络[J]. 科技导报, 2025, 43(2): 108-116;doi: 10.3981/j.issn.1000-7857.2023.12.01823
 <br>Chen, Yinpeng, et al. "Dynamic relu." European conference on computer vision. Cham: Springer International Publishing, 2020.
+<br>刘娟，谢梦瑶，袁佳俊，等. 基于机器视觉和HRNet网络的人体背部穴位识别方法［J］. 机电工程技术，2026，55（01）：102-108.
 
 ## Credits
 The code for modules is based on the [spikingjelly](https://github.com/fangwei123456/spikingjelly) repo. 
