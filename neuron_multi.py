@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class LIFNeuron(nn.Module):
-    def __init__(self):
+    def __init__(self, tau, v_th, sigmoid_alpha, elu_alpha, factor_w, factor_b):
         super(LIFNeuron, self).__init__()
         self.v = 0.
         self.tau = tau
