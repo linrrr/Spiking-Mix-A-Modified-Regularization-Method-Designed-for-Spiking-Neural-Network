@@ -13,7 +13,7 @@ class LIFNeuron(nn.Module):
         self.sigmoid_weight = sigmoid_weight
         self.b = b
 
-    def forward(self, x):
+   def forward(self, x):
         if isinstance(self.v, float):
             self.v = torch.zeros_like(x).to(x.device)
 
@@ -21,7 +21,7 @@ class LIFNeuron(nn.Module):
         out = (output_v > self.v_th).float()
         grad_v = F.elu(self.sigmoid_weight * torch.sigmoid(self.sigmoid_alpha * (output_v - self.v_th)) + self.b, self.elu_alpha)
         v = self.weight(out, output_v, x)
-        out = (1 - out) * v + out
+        out = (1 - out) * (v > self.v_th).float() + out
         self.v = (1 - out) * output_v
 
         return (out - grad_v).detach_() + grad_v
@@ -34,10 +34,10 @@ class LIFNeuron(nn.Module):
         v = (1 - out) * (v - output_v) / self.tau
         v = v + (x - v) / self.tau
 
-        weight = self.sigmoid_weight * torch.sigmoid(torch.relu(x)) + self.b
-        weight = (weight > 1 / self.tau).float() / self.tau
+        weight = torch.sigmoid(torch.relu(F.max_pool2d(x, (1, 1)))) / (self.tau ** 2) + (1 - 1 / (self.tau ** 2))
         return v * weight
 
     def reset(self):
         self.v = 0.
+
 
