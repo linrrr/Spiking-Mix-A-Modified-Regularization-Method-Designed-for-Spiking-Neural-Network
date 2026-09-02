@@ -14,5 +14,5 @@
 ## Credits
 The code for modules is based on the [spikingjelly](https://github.com/fangwei123456/spikingjelly) repo. 
 <br>The code for some utils is from the [pytorch-classification](https://github.com/bearpaw/pytorch-classification) repo.
-
+<br>CHRABASZCZ P, LOSHCHILOV I, HUTTER F. A downsampled variant of imagenet as an alternative to the cifar datasets[J]. arXiv preprint arXiv:1707.08819, 2017.
 # Spiking-Mix
