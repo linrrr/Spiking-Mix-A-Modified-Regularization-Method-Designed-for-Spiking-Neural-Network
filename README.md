@@ -12,6 +12,7 @@
 <br>M. Zhao, S. Zhong, X. Fu, B. Tang, S. Dong and M. Pecht, "Deep Residual Networks With Adaptively Parametric Rectifier Linear Units for Fault Diagnosis," in IEEE Transactions on Industrial Electronics, vol. 68, no. 3, pp. 2587-2597, March 2021, doi: 10.1109/TIE.2020.2972458.
 <br>杨潇,张帆,高彦钊,等. 基于自适应阈值与加权脉冲的SNN步长压缩方法 [J/OL]. 计算机科学, 1-10[2026-09-24]. https://link.cnki.net/urlid/50.1075.tp.20260317.1758.011. 
 <br>Xie MW. The relation of covariance, correlation coefficient, and correlation [J]. Journal of Applied Statistics and Management, 2004, 23(3): 33-36.
+<br>Sergey Ioffe and Christian Szegedy. Batch normalization: Accelerating deep network training by reducing internal covariate shift. In International Conference on Machine Learning, pp. 448–456, 2015.
 
 
 ## Credits
